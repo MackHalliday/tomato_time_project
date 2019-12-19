@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  config.action_controller.asset_host = "d3uz0kz7lvt8k0.cloudfront.net"
   # Code is not reloaded between requests.
   config.cache_classes = true
 
